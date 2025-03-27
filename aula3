@@ -1,0 +1,112 @@
+// console.info("Aviso")
+// console.log("mensagem normal")
+// console.warn("Aviso importante")
+// console.error("")
+// console.table([{id:1 , tarefa: "Estudar 35"}])
+// console.group('Grupo de logs')
+// console.groupEnd('Timer')
+// if (1 == 1) {
+//     console.log("1 é igual a 1")
+// }
+// console.timeEnd("Timer")
+
+/*
+Comentario de várias linhas
+*/
+
+//Variáveis
+
+// let variavelMutavel = 'variavel mutavel'
+
+// const variavelImutavel = 'Variavel imutavel'
+
+// let texto = "Olá";               
+// String: sequência de caracteres.
+
+//let numero = 42;                  
+// Number: valores numéricos.
+
+//let isCompleted = false;          
+// Boolean: verdadeiro ou falso.
+
+//let semValor;                     
+// Undefined: variável declarada sem valor.
+
+//let nulo = null;                  
+// Null: ausência intencional de valor.               
+// (typeof null retorna "object", comportamento histórico do JS)
+
+//let uniqueId = Symbol("id");      
+// Symbol: cria um identificador único.
+
+//let bigNumero = 999999999999999999999999n; 
+// BigInt: para inteiros muito grandes.
+
+// let task = {
+//     id: 1,
+//     title: "Aprender JavaScript",
+//     completed: false,
+//     assignee: {
+//       name: "João",
+//       email: "joao@example.com"
+//     },
+//     toggleComplete() {
+//       this.completed = !this.completed;
+//     }
+//   };
+
+// let tasks = [
+//     { id: 1, title: "Tarefa 1", completed: false },
+//     { id: 2, title: "Tarefa 2", completed: true }
+//   ];
+
+// let hoje = new Date();
+// let dataFutura = new Date("03-26-2025");
+
+// console.log(hoje)
+// console.log(dataFutura)
+
+// let pattern = /^\+55\(\d{2}\)\d{4,5}\-\d{4}$/;
+// console.log(pattern.test("+55(11)92299-0899")); // true
+// console.log(pattern.test("+55(11)2299-0899"));  // true
+
+//É possível converter dados manual ou implicitamente:
+// String(42); // "42"
+// 42 + "";  // "42"
+// Number("42"); // 42
+// parseInt("42.9");  // 42
+// parseFloat("42.9"); // 42.9
+// Boolean("texto"); // true
+// Boolean("");       // false
+// Falsy: "", 0, null, undefined, NaN e false são considerados valores false ao converter para boolean.
+
+
+// Operadores Aritméticos
+// (+, -, *, /, %, **)
+
+// let a = 10;
+// let b = 3;
+// console.log(a + b); // 13
+// console.log(a - b); // 7
+// console.log(a * b); // 30
+// console.log(a / b); // 3.333...
+// console.log(a % b); // 1
+// console.log(a ** b); // 1000
+
+// console.log(true && false);  // false (AND)
+// console.log(true || false);  // true  (OR)
+// console.log(!true);          // false (NOT)
+        
+// console.log(10 == "10");   // true (compara valor somente)
+// console.log(10 === "10");  // false (compara valor e tipo)
+// console.log(5 != "5");     // false (valor é igual)
+// console.log(5 !== "5");    // true (valor igual, mas tipo diferente)
+
+// let x = 10;
+// x += 5; // x = 15
+// x -= 3; // x = 12
+// x *= 2; // x = 24
+// x /= 4; // x = 6
+// x %= 2; // x = 0
+// x **= 3; // x = 0 (0 elevado a 3)
+
